@@ -28,4 +28,4 @@ jobs:
          uses: snow-actions/line-notify@v1.0.0
          with:
              access_token: OoeNUGioVM5rzvnDQvXOpOIqqVD2vUkpxRyGeeRIZAF
-             message: omnidb-server:3.0.3b PUSH to dockerhub complete.!!!
+             message: omnidb-server:3.0.3b PUSH to dockerhub complete.
