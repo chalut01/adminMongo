@@ -19,10 +19,10 @@ jobs:
            password: "Chalut002."
       -
          name: docker build
-         run: docker build . --file Dockerfile --tag chalut/adminMongo:1.0.0
+         run: docker build . --file Dockerfile --tag chalut/adminmongo:1.0.0
       -
          name: Docker push
-         run: docker push chalut/adminMongo:1.0.0
+         run: docker push chalut/adminmongo:1.0.0
       -   
          name: 'Noti JOM'
          uses: snow-actions/line-notify@v1.0.0
